@@ -73,7 +73,7 @@ Welcome to the documentation for the Bookie web application! This application al
 - Code snippets demonstrate key components and functionality.
 - For more details, refer to code comments within the source files.
 
-## Future Enhancements
+## Further Enhancements
 
 1. **Pagination:** Implement pagination for handling large search result sets.
 2. **Error Handling:** Improve error handling to provide better user feedback.
