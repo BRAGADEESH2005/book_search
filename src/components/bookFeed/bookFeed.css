@@ -1,0 +1,134 @@
+/* bookFeed.css */
+.book-feed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #f1356d; /* Bright orange color */
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-list li {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 5px;
+  transition: color 0.2s;
+}
+
+.book-link:hover {
+  color: #f1356d; /* Bright orange color */
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.page-number {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #ff5733; /* Bright orange color */
+  background-color: white;
+  color: #ff5733; /* Bright orange color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.page-number:hover {
+  background-color: #f1356d; /* Bright orange color */
+  color: white;
+}
+
+.page-number.active {
+  background-color: #f1356d; /* Bright orange color */
+  color: white;
+  border-color: #f1356d; /* Bright orange color */
+}
+
+/* Filter */
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.filter select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+
+
+/* Search */
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.search input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1356d; /* Bright orange color */
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  margin-left: 10px;
+}
+
+.search button:hover {
+  background-color: #d62958; /* Darker shade of orange */
+}
+
+.search input:focus,
+.search button:focus,
+.filter select:focus {
+  outline: none;
+  border-color: #f1356d; /* Bright orange color */
+}
+
+

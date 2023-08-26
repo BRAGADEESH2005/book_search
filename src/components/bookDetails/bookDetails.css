@@ -1,0 +1,74 @@
+/* Complementary styles for BookDetails component */
+.book-details {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.book-details a {
+  text-decoration: none;
+  color: #3498db; /* Blue color */
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.book-details a:hover {
+  color: #217dbb; /* Darker blue color */
+}
+
+.book-details h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f1356d; /* Your specified color */
+}
+
+.book-title {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333; /* Dark gray color */
+}
+
+.author {
+  font-size: 18px;
+  color: #3498db; /* Blue color */
+  margin-top: 10px;
+}
+
+.published {
+  font-size: 16px;
+  color: #666; /* Light gray color */
+  margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+  .book-details {
+    padding: 10px;
+  }
+
+  .book-details h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .book-title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .author {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .published {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
