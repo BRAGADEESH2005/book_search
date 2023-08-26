@@ -1,0 +1,29 @@
+/* contactUs.css */
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .contact-us h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f1356d; /* Bright orange color */
+  }
+  
+  .contact-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-us li {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
